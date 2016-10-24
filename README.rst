@@ -29,7 +29,7 @@ You can install Notify Center by using ``pip``. ::
 	
 Usage
 -----
-First create PUSH ID on Notify Center app then pass it to notify(). :
+First create PUSH ID on Notify Center app then pass it to notify(). ::
 
 	import notifycenter as nc
 	mypush = '628697AB-FBB9-49C7-84AD-XXXXXXXXXXXX'
