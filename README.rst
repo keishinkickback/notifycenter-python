@@ -20,3 +20,18 @@ Notify Center is the easiest way to push notifications to your iPhone from major
 -Mainly, Notify Center will allow you to redirect messages of your choice to your phone (as notifications) instead of printing them to the standard output. 
 
 Stop waiting! We'll notify you!
+
+Installation
+------------
+You can install Notify Center by using ``pip``. ::
+
+	pip install notifycenter
+	
+Usage
+-----
+First create PUSH ID on Notify Center app then pass it to ``notify()``. ::
+
+	import notifycenter as nc
+	mypush = '628697AB-FBB9-49C7-84AD-XXXXXXXXXXXX'
+	nc.notify(mypush,'Test from Python')
+
