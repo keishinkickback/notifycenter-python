@@ -37,11 +37,11 @@ First create PUSH ID on Notify Center app then pass it to ``notify()`` with noti
 	
 	# Notification to multiple PUSH IDs.
 	pushId2 = 'F375878F-5CB0-40E8-8F02-XXXXXXXXXXXX'
-	nc.notify([pushId, pushId2], 'Notification from Torch')
+	nc.notify([pushId, pushId2], 'Notification from Python')
 	
 Sample Notification
 -------------------
 .. image:: screenshots/notificationOnApp.png
-   :scale: 20%
+   :scale: 100%
    :align: left
 
