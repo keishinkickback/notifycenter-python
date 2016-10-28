@@ -41,5 +41,5 @@ First create PUSH ID on Notify Center app then pass it to ``notify()`` with noti
 	
 Sample Notification
 -------------------
-<img src="screenshots/notificationOnApp.png" align="left" width="375" height="667">
+<.. image:: "screenshots/notificationOnApp.png" align="left" width="375" height="667">
 
